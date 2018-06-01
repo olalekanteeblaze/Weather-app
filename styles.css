@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Julee|Rajdhani|Teko|Ubuntu');
+
+*{
+  margin-top:0.1em;
+}
+body{
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-8-1024x683.jpg);
+  text-align:center;
+  color:white;
+}
+
+.fi{
+  font-weight:bold;
+  font-size:150px;
+  color: #F2EEEE;
+}
+.heading{
+  font-family: 'Teko', sans-serif;
+  color:white;
+  font-size:50px;
+}
+
+#time{
+  font-family: 'Rajdhani', sans-serif;
+  color:white;
+  font-size:6.25em; 
+  opacity:0.8;
+}
+#desc{
+  color:white;
+  font-size: 2.5em;
+}
+#currentdate{
+  font-family: 'Julee', cursive;
+  color:white;
+  opacity:0.5;
+  font-size:1.25em;
+  margin-top:0px;
+}
+
+.location{
+  color:white;
+  opacity:0.8;
+  font-size: 3em;
+}
+
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;;
+    cursor:pointer;
+    overflow: hidden;        
+}
+button:hover{
+  background:white;
+  color:#3339FF;
+}
+.result{
+  font-size: 2em;
+}
